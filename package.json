@@ -1,0 +1,23 @@
+{
+  "name": "String-Builder",
+  "version": "1.0.0",
+  "description": "Hello! We are doing a String Builder!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellamae0821/StringBuilder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellamae0821/StringBuilder/issues"
+  },
+  "homepage": "https://github.com/ellamae0821/StringBuilder#readme",
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
