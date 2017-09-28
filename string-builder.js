@@ -10,13 +10,17 @@ class StringBuilder {
   }
 
   reverse() {
-//    return this.reverse;
-//  return reverse(this);
-//    var string1 = this.string;
-
     return this.string.split("").reverse().join("");
   }
+
+  toUpperCase(){
+    return this.string[0].toUpperCase()+this.string[1]+this.string[2];
+  }
+
+
+
+
 }
-//StringBuilder.reverse();
+
 
 module.exports=StringBuilder;
