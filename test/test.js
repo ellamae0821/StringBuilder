@@ -28,12 +28,12 @@ describe('test', function (){
   expect(sb.toUpperCase()).to.equal("Foo");
   });
 
-  it.skip('should put the string in an array', function (){
-    expect([1, 2, 3]).to.be.an('array').that.includes(2);
+  it('it should add the string to array', function (){
+  expect(sb.toArray()).to.deep.equal(["foo"]);
   });
 
-  it.skip('should append ', function (){
-  expect(reverse("hello world").to.equal("Hello World"));
+  it('should append ', function (){
+  expect(sb.append()).to.equal("foo bar");
   });
 
   

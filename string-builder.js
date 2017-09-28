@@ -16,6 +16,15 @@ class StringBuilder {
   toUpperCase(){
     return this.string[0].toUpperCase()+this.string[1]+this.string[2];
   }
+  toArray(){
+    var array = [];
+    array.push(this.string);
+    return array;
+  }
+  append(){
+    return this.string.concat(' bar');
+
+  }
 
 
 
