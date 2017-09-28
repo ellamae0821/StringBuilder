@@ -21,11 +21,11 @@ describe('test', function (){
   });
 
   it('should reverse string', function (){
-  expect(reverse("hello").to.equal("olleh"));
+  expect(sb.reverse()).to.equal("oof");
   });
 
-  it.skip('should capitaized first letter of a word', function (){
-  expect(reverse("hello world").to.equal("Hello World"));
+  it('should capitaized first letter of a word', function (){
+  expect(sb.toUpperCase()).to.equal("Foo");
   });
 
   it.skip('should put the string in an array', function (){
