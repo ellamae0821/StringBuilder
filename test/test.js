@@ -1,41 +1,41 @@
+//jshint esversion: 6
+
 const chai = require('chai');
 const expect = chai.expect;
 const should = chai.should();
 const StringBuilder = require('../string-builder');
 
-describe('reverse', function (){
+describe('test', function (){
+
+  var sb;
+  beforeEach (function () {
+    sb = new StringBuilder('foo');
+  });
+
+  it('expect it to be a function',function (){
+    expect(StringBuilder).to.be.a('function');
+  });
+
+  it('expect it to be a string', function (){
+    expect('foo').to.be.a('string');
+  });
 
   it('should reverse string', function (){
-    expect(reverse("hello").to.equal("olleh"));
+  expect(reverse("hello").to.equal("olleh"));
   });
 
-});
-
-describe.skip('capitaize', function (){
-  it('should capitaized first letter of a word', function (){
+  it.skip('should capitaized first letter of a word', function (){
   expect(reverse("hello world").to.equal("Hello World"));
   });
-});
 
-
-describe.skip('toArray', function (){
-  var array;
-  it('should put the string in an array', function (){
-  toArray(array, hello);
-  expect(array).to.deep.equal("[hello]");
+  it.skip('should put the string in an array', function (){
+    expect([1, 2, 3]).to.be.an('array').that.includes(2);
   });
-});
 
-describe.skip('append', function (){
-  it('should append ', function (){
+  it.skip('should append ', function (){
   expect(reverse("hello world").to.equal("Hello World"));
   });
-});
 
-describe.skip('toString', function (){
-  it('should capitaized first letter of a word', function (){
-  expect(reverse("hello world").to.equal("Hello World"));
-  });
+  
 });
-
 
